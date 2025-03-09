@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scan Results</title>
+</head>
+<body>
+    <h1>Scan Results</h1>
+    <h2>Vulnerabilities:</h2>
+    <ul>
+        {% for vuln in vulns %}
+            <li>{{ vuln }}</li>
+        {% endfor %}
+    </ul>
+    <h2>Anomaly Detection:</h2>
+    <p>{{ anomaly }}</p>
+    <a href="/">Scan another URL</a>
+</body>
+</html>
