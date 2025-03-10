@@ -1,0 +1,1001 @@
+url,method,params
+http://example.com/search,GET,q=web development
+http://example.com/search,GET,q=machine learning
+http://example.com/profile,GET,id=47
+http://example.com/login,GET,user=' OR 1=1 --&pass=123
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hello
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hi
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Question
+http://example.com/search,GET,q=' OR 1=1 --
+http://example.com/search,GET,q=web development
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hello
+http://example.com/,GET,
+http://example.com/search,GET,q=web development
+http://example.com/contact,GET,name=John&email=john@example.com&message=Question
+http://example.com/search,GET,q=UNION SELECT * FROM users
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hi
+http://example.com/search,GET,q=SELECT * FROM information_schema.tables
+http://example.com/search,GET,q=' OR 1=1 --
+http://example.com/,GET,
+http://example.com/search,GET,q=python
+http://example.com/profile,GET,id=71
+http://example.com/search,GET,q=java
+http://example.com/,GET,
+http://example.com/login,GET,user=user1&pass=letmein
+http://example.com/login,GET,user=user2&pass=qwerty
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Contact me
+http://example.com/search,GET,q=java
+http://example.com/profile,GET,id=3
+http://example.com/search,GET,q=<script>alert(1)</script>
+http://example.com/profile,GET,id=97
+http://example.com/search,GET,q=java
+http://example.com/login,GET,user=SELECT * FROM information_schema.tables&pass=123
+http://example.com/search,GET,q=sqlmap
+http://example.com/search,GET,q=web development
+http://example.com/login,GET,user=user2&pass=letmein
+http://example.com/login,GET,user=user3&pass=qwerty
+http://example.com/,GET,
+http://example.com/contact,GET,name=John&email=john@example.com&message=Question
+http://example.com/,GET,
+http://example.com/login,GET,user=user3&pass=letmein
+http://example.com/profile,GET,id=45
+http://example.com/profile,GET,id=10
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/login,GET,user=user1&pass=password
+http://example.com/profile,GET,id=72
+http://example.com/,GET,
+http://example.com/login,GET,user=admin&pass=letmein
+http://example.com/login,GET,user=<script>alert(1)</script>&pass=123
+http://example.com/login,GET,user=DROP TABLE users&pass=123
+http://example.com/,GET,
+http://example.com/login,GET,user=<img src=x onerror=alert(1)>&pass=123
+http://example.com/search,GET,q=java
+http://example.com/login,GET,user=user2&pass=123
+http://example.com/profile,GET,id=35
+http://example.com/,GET,
+http://example.com/login,GET,user=admin&pass=qwerty
+http://example.com/,GET,
+http://example.com/search,GET,q=machine learning
+http://example.com/,GET,
+http://example.com/search,GET,q=java
+http://example.com/search,GET,q=DROP TABLE users
+http://example.com/search,GET,q=java
+http://example.com/search,GET,q=java
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hi
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Question
+http://example.com/profile,GET,id=14
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/login,GET,user=UNION SELECT * FROM users&pass=123
+http://example.com/search,GET,q=python
+http://example.com/,GET,
+http://example.com/search,GET,q=web development
+http://example.com/,GET,
+http://example.com/search,GET,q=data science
+http://example.com/login,GET,user=user1&pass=password
+http://example.com/login,GET,user=user3&pass=letmein
+http://example.com/login,GET,user=user1&pass=qwerty
+http://example.com/login,GET,user=user1&pass=letmein
+http://example.com/login,GET,user=SELECT * FROM information_schema.tables&pass=123
+http://example.com/search,GET,q=data science
+http://example.com/search,GET,q=java
+http://example.com/profile,GET,id=7
+http://example.com/search,GET,q=data science
+http://example.com/search,GET,q=web development
+http://example.com/contact,GET,name=John&email=john@example.com&message=Question
+http://example.com/search,GET,q=web development
+http://example.com/search,GET,q=machine learning
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/profile,GET,id=44
+http://example.com/profile,GET,id=77
+http://example.com/search,GET,q=data science
+http://example.com/search,GET,q=machine learning
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Contact me
+http://example.com/search,GET,q=machine learning
+http://example.com/search,GET,q=web development
+http://example.com/profile,GET,id=6
+http://example.com/,GET,
+http://example.com/search,GET,q=' OR 1=1 --
+http://example.com/search,GET,q=web development
+http://example.com/profile,GET,id=48
+http://example.com/login,GET,user=' OR 1=1 --&pass=123
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hello
+http://example.com/profile,GET,id=64
+http://example.com/profile,GET,id=100
+http://example.com/contact,GET,name=John&email=john@example.com&message=Question
+http://example.com/profile,GET,id=55
+http://example.com/login,GET,user=user2&pass=123
+http://example.com/search,GET,q=web development
+http://example.com/search,GET,q=web development
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hello
+http://example.com/login,GET,user=user1&pass=123
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hi
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hello
+http://example.com/profile,GET,id=84
+http://example.com/,GET,
+http://example.com/search,GET,q=java
+http://example.com/,GET,
+http://example.com/login,GET,user=user3&pass=qwerty
+http://example.com/,GET,
+http://example.com/search,GET,q=data science
+http://example.com/profile,GET,id=1
+http://example.com/search,GET,q=machine learning
+http://example.com/search,GET,q=java
+http://example.com/login,GET,user=admin' --&pass=123
+http://example.com/contact,GET,name=John&email=john@example.com&message=Contact me
+http://example.com/profile,GET,id=80
+http://example.com/search,GET,q=python
+http://example.com/profile,GET,id=48
+http://example.com/search,GET,q=data science
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hello
+http://example.com/profile,GET,id=87
+http://example.com/profile,GET,id=20
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Question
+http://example.com/,GET,
+http://example.com/login,GET,user=user1&pass=password
+http://example.com/login,GET,user=user2&pass=password
+http://example.com/search,GET,q=web development
+http://example.com/login,GET,user=DROP TABLE users&pass=123
+http://example.com/,GET,
+http://example.com/profile,GET,id=46
+http://example.com/search,GET,q=data science
+http://example.com/search,GET,q=python
+http://example.com/,GET,
+http://example.com/search,GET,q=data science
+http://example.com/login,GET,user=user3&pass=123
+http://example.com/,GET,
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hello
+http://example.com/search,GET,q=web development
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Contact me
+http://example.com/,GET,
+http://example.com/search,GET,q=web development
+http://example.com/,GET,
+http://example.com/search,GET,q=web development
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hello
+http://example.com/,GET,
+http://example.com/search,GET,q=python
+http://example.com/,GET,
+http://example.com/search,GET,q=python
+http://example.com/profile,GET,id=92
+http://example.com/profile,GET,id=37
+http://example.com/login,GET,user=user1&pass=letmein
+http://example.com/login,GET,user=user1&pass=password
+http://example.com/login,GET,user=user1&pass=qwerty
+http://example.com/login,GET,user=user1&pass=password
+http://example.com/contact,GET,name=John&email=john@example.com&message=Question
+http://example.com/search,GET,q=web development
+http://example.com/profile,GET,id=43
+http://example.com/login,GET,user=SELECT * FROM information_schema.tables&pass=123
+http://example.com/,GET,
+http://example.com/search,GET,q=data science
+http://example.com/,GET,
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hi
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Question
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hi
+http://example.com/login,GET,user=user2&pass=password
+http://example.com/,GET,
+http://example.com/profile,GET,id=76
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hello
+http://example.com/,GET,
+http://example.com/login,GET,user=<img src=x onerror=alert(1)>&pass=123
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Contact me
+http://example.com/search,GET,q=python
+http://example.com/search,GET,q=<script>alert(1)</script>
+http://example.com/profile,GET,id=35
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Question
+http://example.com/search,GET,q=web development
+http://example.com/profile,GET,id=80
+http://example.com/search,GET,q=sqlmap
+http://example.com/login,GET,user=user1&pass=letmein
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Question
+http://example.com/login,GET,user=user3&pass=letmein
+http://example.com/login,GET,user=admin&pass=123
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Question
+http://example.com/profile,GET,id=41
+http://example.com/,GET,
+http://example.com/search,GET,q=<img src=x onerror=alert(1)>
+http://example.com/login,GET,user=admin&pass=qwerty
+http://example.com/profile,GET,id=95
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/contact,GET,name=John&email=john@example.com&message=Contact me
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Question
+http://example.com/login,GET,user=UNION SELECT * FROM users&pass=123
+http://example.com/login,GET,user=user1&pass=qwerty
+http://example.com/login,GET,user=user1&pass=password
+http://example.com/search,GET,q=machine learning
+http://example.com/,GET,
+http://example.com/profile,GET,id=51
+http://example.com/profile,GET,id=51
+http://example.com/,GET,
+http://example.com/profile,GET,id=27
+http://example.com/login,GET,user=DROP TABLE users&pass=123
+http://example.com/profile,GET,id=51
+http://example.com/profile,GET,id=13
+http://example.com/profile,GET,id=59
+http://example.com/search,GET,q=web development
+http://example.com/login,GET,user=user2&pass=password
+http://example.com/profile,GET,id=23
+http://example.com/profile,GET,id=27
+http://example.com/profile,GET,id=69
+http://example.com/search,GET,q=DROP TABLE users
+http://example.com/profile,GET,id=47
+http://example.com/login,GET,user=<script>alert(1)</script>&pass=123
+http://example.com/search,GET,q=data science
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Contact me
+http://example.com/login,GET,user=user1&pass=letmein
+http://example.com/search,GET,q=<img src=x onerror=alert(1)>
+http://example.com/login,GET,user=user2&pass=letmein
+http://example.com/profile,GET,id=54
+http://example.com/login,GET,user=user3&pass=qwerty
+http://example.com/login,GET,user=admin&pass=123
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hi
+http://example.com/search,GET,q=DROP TABLE users
+http://example.com/profile,GET,id=68
+http://example.com/search,GET,q=java
+http://example.com/contact,GET,name=John&email=john@example.com&message=Contact me
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hello
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/profile,GET,id=22
+http://example.com/search,GET,q=admin' --
+http://example.com/profile,GET,id=29
+http://example.com/login,GET,user=user1&pass=123
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hi
+http://example.com/profile,GET,id=56
+http://example.com/profile,GET,id=48
+http://example.com/,GET,
+http://example.com/search,GET,q=<script>alert(1)</script>
+http://example.com/,GET,
+http://example.com/login,GET,user=UNION SELECT * FROM users&pass=123
+http://example.com/login,GET,user=user1&pass=letmein
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hello
+http://example.com/profile,GET,id=52
+http://example.com/search,GET,q=web development
+http://example.com/profile,GET,id=62
+http://example.com/,GET,
+http://example.com/login,GET,user=user1&pass=qwerty
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/login,GET,user=user3&pass=123
+http://example.com/profile,GET,id=31
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Contact me
+http://example.com/login,GET,user=user3&pass=123
+http://example.com/search,GET,q=web development
+http://example.com/profile,GET,id=48
+http://example.com/,GET,
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hello
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hi
+http://example.com/,GET,
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hello
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hello
+http://example.com/login,GET,user=user3&pass=123
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Question
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hello
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hi
+http://example.com/login,GET,user=admin&pass=password
+http://example.com/search,GET,q=machine learning
+http://example.com/login,GET,user=user1&pass=123
+http://example.com/search,GET,q=UNION SELECT * FROM users
+http://example.com/search,GET,q=data science
+http://example.com/login,GET,user=SELECT * FROM information_schema.tables&pass=123
+http://example.com/,GET,
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/login,GET,user=admin&pass=password
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hi
+http://example.com/search,GET,q=data science
+http://example.com/login,GET,user=DROP TABLE users&pass=123
+http://example.com/login,GET,user=user2&pass=password
+http://example.com/search,GET,q=java
+http://example.com/login,GET,user=user1&pass=password
+http://example.com/login,GET,user=<script>alert(1)</script>&pass=123
+http://example.com/,GET,
+http://example.com/profile,GET,id=24
+http://example.com/login,GET,user=user1&pass=qwerty
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hi
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/search,GET,q=web development
+http://example.com/login,GET,user=user2&pass=123
+http://example.com/contact,GET,name=John&email=john@example.com&message=Contact me
+http://example.com/,GET,
+http://example.com/profile,GET,id=83
+http://example.com/contact,GET,name=John&email=john@example.com&message=Contact me
+http://example.com/search,GET,q=web development
+http://example.com/login,GET,user=user1&pass=qwerty
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hello
+http://example.com/search,GET,q=DROP TABLE users
+http://example.com/search,GET,q=machine learning
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Contact me
+http://example.com/login,GET,user=user1&pass=qwerty
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Question
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/login,GET,user=admin&pass=letmein
+http://example.com/login,GET,user=user2&pass=letmein
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hi
+http://example.com/,GET,
+http://example.com/contact,GET,name=John&email=john@example.com&message=Question
+http://example.com/search,GET,q=data science
+http://example.com/search,GET,q=web development
+http://example.com/profile,GET,id=45
+http://example.com/profile,GET,id=1
+http://example.com/profile,GET,id=31
+http://example.com/login,GET,user=user2&pass=letmein
+http://example.com/,GET,
+http://example.com/login,GET,user=user3&pass=password
+http://example.com/profile,GET,id=49
+http://example.com/login,GET,user=user1&pass=letmein
+http://example.com/login,GET,user=user3&pass=password
+http://example.com/search,GET,q=SELECT * FROM information_schema.tables
+http://example.com/,GET,
+http://example.com/profile,GET,id=18
+http://example.com/,GET,
+http://example.com/profile,GET,id=61
+http://example.com/search,GET,q=data science
+http://example.com/profile,GET,id=7
+http://example.com/login,GET,user=user1&pass=qwerty
+http://example.com/profile,GET,id=85
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/search,GET,q=java
+http://example.com/profile,GET,id=49
+http://example.com/login,GET,user=user2&pass=password
+http://example.com/login,GET,user=admin&pass=letmein
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hi
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hi
+http://example.com/login,GET,user=sqlmap&pass=123
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hello
+http://example.com/,GET,
+http://example.com/contact,GET,name=John&email=john@example.com&message=Contact me
+http://example.com/login,GET,user=user3&pass=123
+http://example.com/login,GET,user=admin&pass=letmein
+http://example.com/,GET,
+http://example.com/login,GET,user=user1&pass=qwerty
+http://example.com/profile,GET,id=81
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/profile,GET,id=59
+http://example.com/login,GET,user=UNION SELECT * FROM users&pass=123
+http://example.com/login,GET,user=admin&pass=password
+http://example.com/login,GET,user=user1&pass=qwerty
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hello
+http://example.com/profile,GET,id=75
+http://example.com/profile,GET,id=37
+http://example.com/search,GET,q=java
+http://example.com/profile,GET,id=99
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Contact me
+http://example.com/login,GET,user=DROP TABLE users&pass=123
+http://example.com/search,GET,q=python
+http://example.com/profile,GET,id=74
+http://example.com/login,GET,user=user1&pass=letmein
+http://example.com/profile,GET,id=22
+http://example.com/profile,GET,id=32
+http://example.com/profile,GET,id=12
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hi
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hi
+http://example.com/,GET,
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/search,GET,q=machine learning
+http://example.com/,GET,
+http://example.com/login,GET,user=user2&pass=letmein
+http://example.com/login,GET,user=admin&pass=letmein
+http://example.com/contact,GET,name=John&email=john@example.com&message=Question
+http://example.com/search,GET,q=machine learning
+http://example.com/profile,GET,id=77
+http://example.com/search,GET,q=data science
+http://example.com/profile,GET,id=70
+http://example.com/contact,GET,name=John&email=john@example.com&message=Question
+http://example.com/search,GET,q=web development
+http://example.com/search,GET,q=web development
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Contact me
+http://example.com/login,GET,user=user1&pass=password
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hi
+http://example.com/profile,GET,id=75
+http://example.com/login,GET,user=sqlmap&pass=123
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hi
+http://example.com/search,GET,q=java
+http://example.com/search,GET,q=<img src=x onerror=alert(1)>
+http://example.com/search,GET,q=data science
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/profile,GET,id=19
+http://example.com/profile,GET,id=42
+http://example.com/search,GET,q=machine learning
+http://example.com/login,GET,user=UNION SELECT * FROM users&pass=123
+http://example.com/profile,GET,id=92
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hi
+http://example.com/login,GET,user=user1&pass=123
+http://example.com/,GET,
+http://example.com/search,GET,q=python
+http://example.com/profile,GET,id=36
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/login,GET,user=user1&pass=password
+http://example.com/,GET,
+http://example.com/search,GET,q=DROP TABLE users
+http://example.com/login,GET,user=user3&pass=123
+http://example.com/profile,GET,id=24
+http://example.com/search,GET,q=java
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hi
+http://example.com/contact,GET,name=John&email=john@example.com&message=Question
+http://example.com/search,GET,q=java
+http://example.com/profile,GET,id=88
+http://example.com/search,GET,q=SELECT * FROM information_schema.tables
+http://example.com/profile,GET,id=79
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Contact me
+http://example.com/login,GET,user=user2&pass=qwerty
+http://example.com/login,GET,user=user1&pass=letmein
+http://example.com/login,GET,user=user1&pass=letmein
+http://example.com/login,GET,user=admin&pass=123
+http://example.com/,GET,
+http://example.com/search,GET,q=machine learning
+http://example.com/profile,GET,id=71
+http://example.com/,GET,
+http://example.com/login,GET,user=user3&pass=qwerty
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hello
+http://example.com/login,GET,user=user1&pass=qwerty
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/search,GET,q=SELECT * FROM information_schema.tables
+http://example.com/search,GET,q=java
+http://example.com/search,GET,q=machine learning
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Contact me
+http://example.com/profile,GET,id=40
+http://example.com/,GET,
+http://example.com/profile,GET,id=92
+http://example.com/login,GET,user=admin&pass=qwerty
+http://example.com/search,GET,q=web development
+http://example.com/login,GET,user=user1&pass=123
+http://example.com/login,GET,user=user2&pass=letmein
+http://example.com/login,GET,user=user3&pass=123
+http://example.com/profile,GET,id=58
+http://example.com/profile,GET,id=94
+http://example.com/profile,GET,id=94
+http://example.com/login,GET,user=<img src=x onerror=alert(1)>&pass=123
+http://example.com/search,GET,q=java
+http://example.com/,GET,
+http://example.com/profile,GET,id=33
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/,GET,
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hello
+http://example.com/login,GET,user=admin' --&pass=123
+http://example.com/search,GET,q=web development
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hello
+http://example.com/login,GET,user=admin&pass=123
+http://example.com/login,GET,user=DROP TABLE users&pass=123
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hi
+http://example.com/login,GET,user=user2&pass=qwerty
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hi
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Contact me
+http://example.com/search,GET,q=data science
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hi
+http://example.com/search,GET,q=java
+http://example.com/search,GET,q=UNION SELECT * FROM users
+http://example.com/search,GET,q=web development
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hi
+http://example.com/,GET,
+http://example.com/contact,GET,name=John&email=john@example.com&message=Contact me
+http://example.com/,GET,
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Question
+http://example.com/login,GET,user=<script>alert(1)</script>&pass=123
+http://example.com/login,GET,user=user2&pass=123
+http://example.com/profile,GET,id=4
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/,GET,
+http://example.com/profile,GET,id=3
+http://example.com/,GET,
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Question
+http://example.com/,GET,
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Question
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Contact me
+http://example.com/profile,GET,id=26
+http://example.com/search,GET,q=data science
+http://example.com/login,GET,user=<script>alert(1)</script>&pass=123
+http://example.com/search,GET,q=<img src=x onerror=alert(1)>
+http://example.com/search,GET,q=python
+http://example.com/search,GET,q=machine learning
+http://example.com/profile,GET,id=61
+http://example.com/login,GET,user=admin&pass=qwerty
+http://example.com/search,GET,q=web development
+http://example.com/profile,GET,id=66
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hi
+http://example.com/login,GET,user=user3&pass=letmein
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Contact me
+http://example.com/,GET,
+http://example.com/search,GET,q=python
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/,GET,
+http://example.com/profile,GET,id=28
+http://example.com/login,GET,user=<img src=x onerror=alert(1)>&pass=123
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hi
+http://example.com/search,GET,q=web development
+http://example.com/profile,GET,id=10
+http://example.com/search,GET,q=data science
+http://example.com/login,GET,user=<img src=x onerror=alert(1)>&pass=123
+http://example.com/login,GET,user=DROP TABLE users&pass=123
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/login,GET,user=user3&pass=letmein
+http://example.com/login,GET,user=user2&pass=password
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Contact me
+http://example.com/login,GET,user=user1&pass=qwerty
+http://example.com/search,GET,q=machine learning
+http://example.com/search,GET,q=machine learning
+http://example.com/profile,GET,id=51
+http://example.com/,GET,
+http://example.com/search,GET,q=java
+http://example.com/login,GET,user=user3&pass=123
+http://example.com/,GET,
+http://example.com/contact,GET,name=John&email=john@example.com&message=Question
+http://example.com/search,GET,q=data science
+http://example.com/search,GET,q=machine learning
+http://example.com/,GET,
+http://example.com/search,GET,q=machine learning
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/profile,GET,id=33
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Contact me
+http://example.com/search,GET,q=sqlmap
+http://example.com/search,GET,q=web development
+http://example.com/search,GET,q=SELECT * FROM information_schema.tables
+http://example.com/login,GET,user=user1&pass=password
+http://example.com/login,GET,user=user3&pass=password
+http://example.com/,GET,
+http://example.com/login,GET,user=admin&pass=letmein
+http://example.com/profile,GET,id=11
+http://example.com/search,GET,q=sqlmap
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hello
+http://example.com/profile,GET,id=98
+http://example.com/login,GET,user=user2&pass=123
+http://example.com/login,GET,user=user2&pass=123
+http://example.com/login,GET,user=' OR 1=1 --&pass=123
+http://example.com/search,GET,q=data science
+http://example.com/login,GET,user=admin&pass=letmein
+http://example.com/profile,GET,id=44
+http://example.com/,GET,
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hi
+http://example.com/login,GET,user=user1&pass=qwerty
+http://example.com/profile,GET,id=40
+http://example.com/search,GET,q=data science
+http://example.com/,GET,
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Contact me
+http://example.com/search,GET,q=python
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Contact me
+http://example.com/profile,GET,id=50
+http://example.com/search,GET,q=<script>alert(1)</script>
+http://example.com/login,GET,user=user1&pass=password
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hi
+http://example.com/login,GET,user=UNION SELECT * FROM users&pass=123
+http://example.com/profile,GET,id=91
+http://example.com/profile,GET,id=41
+http://example.com/,GET,
+http://example.com/login,GET,user=admin&pass=password
+http://example.com/,GET,
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Question
+http://example.com/profile,GET,id=32
+http://example.com/,GET,
+http://example.com/login,GET,user=admin&pass=password
+http://example.com/login,GET,user=user2&pass=qwerty
+http://example.com/search,GET,q=python
+http://example.com/search,GET,q=java
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/login,GET,user=<img src=x onerror=alert(1)>&pass=123
+http://example.com/login,GET,user=user3&pass=qwerty
+http://example.com/search,GET,q=admin' --
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Question
+http://example.com/search,GET,q=python
+http://example.com/login,GET,user=admin' --&pass=123
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hi
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hi
+http://example.com/,GET,
+http://example.com/search,GET,q=<img src=x onerror=alert(1)>
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hello
+http://example.com/search,GET,q=data science
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hello
+http://example.com/login,GET,user=admin' --&pass=123
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Contact me
+http://example.com/profile,GET,id=70
+http://example.com/profile,GET,id=49
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hello
+http://example.com/login,GET,user=user2&pass=qwerty
+http://example.com/login,GET,user=user2&pass=password
+http://example.com/search,GET,q=java
+http://example.com/login,GET,user=admin&pass=password
+http://example.com/profile,GET,id=38
+http://example.com/,GET,
+http://example.com/search,GET,q=data science
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Question
+http://example.com/,GET,
+http://example.com/profile,GET,id=82
+http://example.com/login,GET,user=user3&pass=qwerty
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hello
+http://example.com/contact,GET,name=John&email=john@example.com&message=Contact me
+http://example.com/,GET,
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hello
+http://example.com/login,GET,user=<script>alert(1)</script>&pass=123
+http://example.com/,GET,
+http://example.com/login,GET,user=user1&pass=letmein
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hello
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hello
+http://example.com/contact,GET,name=John&email=john@example.com&message=Question
+http://example.com/profile,GET,id=71
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hello
+http://example.com/,GET,
+http://example.com/profile,GET,id=59
+http://example.com/login,GET,user=UNION SELECT * FROM users&pass=123
+http://example.com/login,GET,user=user2&pass=qwerty
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hello
+http://example.com/profile,GET,id=49
+http://example.com/login,GET,user=UNION SELECT * FROM users&pass=123
+http://example.com/search,GET,q=data science
+http://example.com/contact,GET,name=John&email=john@example.com&message=Question
+http://example.com/login,GET,user=admin&pass=123
+http://example.com/login,GET,user=admin&pass=qwerty
+http://example.com/profile,GET,id=87
+http://example.com/contact,GET,name=John&email=john@example.com&message=Question
+http://example.com/login,GET,user=admin&pass=password
+http://example.com/profile,GET,id=70
+http://example.com/login,GET,user=user2&pass=qwerty
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/login,GET,user=user3&pass=letmein
+http://example.com/login,GET,user=user1&pass=qwerty
+http://example.com/,GET,
+http://example.com/login,GET,user=user2&pass=123
+http://example.com/profile,GET,id=80
+http://example.com/search,GET,q=web development
+http://example.com/,GET,
+http://example.com/profile,GET,id=9
+http://example.com/search,GET,q=web development
+http://example.com/profile,GET,id=10
+http://example.com/search,GET,q=machine learning
+http://example.com/search,GET,q=machine learning
+http://example.com/login,GET,user=UNION SELECT * FROM users&pass=123
+http://example.com/search,GET,q=machine learning
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Contact me
+http://example.com/search,GET,q=UNION SELECT * FROM users
+http://example.com/profile,GET,id=39
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Contact me
+http://example.com/,GET,
+http://example.com/profile,GET,id=31
+http://example.com/profile,GET,id=86
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/search,GET,q=UNION SELECT * FROM users
+http://example.com/search,GET,q=web development
+http://example.com/search,GET,q=data science
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/profile,GET,id=45
+http://example.com/search,GET,q=' OR 1=1 --
+http://example.com/profile,GET,id=33
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hello
+http://example.com/login,GET,user=user2&pass=letmein
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hi
+http://example.com/profile,GET,id=50
+http://example.com/search,GET,q=admin' --
+http://example.com/,GET,
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Question
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/search,GET,q=java
+http://example.com/login,GET,user=admin&pass=password
+http://example.com/,GET,
+http://example.com/login,GET,user=DROP TABLE users&pass=123
+http://example.com/login,GET,user=user1&pass=password
+http://example.com/search,GET,q=data science
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/login,GET,user=user3&pass=123
+http://example.com/,GET,
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hi
+http://example.com/login,GET,user=admin&pass=123
+http://example.com/profile,GET,id=44
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hi
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Contact me
+http://example.com/,GET,
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hello
+http://example.com/,GET,
+http://example.com/search,GET,q=java
+http://example.com/contact,GET,name=John&email=john@example.com&message=Question
+http://example.com/login,GET,user=user2&pass=password
+http://example.com/search,GET,q=python
+http://example.com/search,GET,q=machine learning
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hello
+http://example.com/,GET,
+http://example.com/contact,GET,name=John&email=john@example.com&message=Question
+http://example.com/search,GET,q=python
+http://example.com/search,GET,q=python
+http://example.com/profile,GET,id=86
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hi
+http://example.com/login,GET,user=admin&pass=123
+http://example.com/search,GET,q=admin' --
+http://example.com/,GET,
+http://example.com/login,GET,user=user3&pass=qwerty
+http://example.com/profile,GET,id=72
+http://example.com/profile,GET,id=66
+http://example.com/search,GET,q=java
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hi
+http://example.com/,GET,
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Contact me
+http://example.com/,GET,
+http://example.com/search,GET,q=machine learning
+http://example.com/search,GET,q=machine learning
+http://example.com/profile,GET,id=29
+http://example.com/,GET,
+http://example.com/login,GET,user=admin&pass=123
+http://example.com/search,GET,q=<script>alert(1)</script>
+http://example.com/search,GET,q=python
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Contact me
+http://example.com/profile,GET,id=58
+http://example.com/login,GET,user=DROP TABLE users&pass=123
+http://example.com/profile,GET,id=75
+http://example.com/,GET,
+http://example.com/login,GET,user=user2&pass=qwerty
+http://example.com/search,GET,q=data science
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Contact me
+http://example.com/search,GET,q=machine learning
+http://example.com/search,GET,q=machine learning
+http://example.com/profile,GET,id=38
+http://example.com/search,GET,q=machine learning
+http://example.com/login,GET,user=admin' --&pass=123
+http://example.com/login,GET,user=user1&pass=123
+http://example.com/profile,GET,id=54
+http://example.com/,GET,
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hello
+http://example.com/search,GET,q=data science
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/login,GET,user=' OR 1=1 --&pass=123
+http://example.com/login,GET,user=admin&pass=123
+http://example.com/login,GET,user=user1&pass=123
+http://example.com/search,GET,q=data science
+http://example.com/,GET,
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hi
+http://example.com/login,GET,user=user3&pass=letmein
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hi
+http://example.com/search,GET,q=data science
+http://example.com/search,GET,q=java
+http://example.com/profile,GET,id=10
+http://example.com/profile,GET,id=68
+http://example.com/login,GET,user=user2&pass=qwerty
+http://example.com/profile,GET,id=7
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Contact me
+http://example.com/search,GET,q=web development
+http://example.com/search,GET,q=java
+http://example.com/search,GET,q=machine learning
+http://example.com/login,GET,user=UNION SELECT * FROM users&pass=123
+http://example.com/search,GET,q=python
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hi
+http://example.com/login,GET,user=user2&pass=letmein
+http://example.com/login,GET,user=user2&pass=123
+http://example.com/profile,GET,id=4
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hello
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Question
+http://example.com/profile,GET,id=56
+http://example.com/,GET,
+http://example.com/search,GET,q=java
+http://example.com/,GET,
+http://example.com/login,GET,user=user2&pass=letmein
+http://example.com/profile,GET,id=45
+http://example.com/profile,GET,id=10
+http://example.com/search,GET,q=machine learning
+http://example.com/search,GET,q=machine learning
+http://example.com/profile,GET,id=51
+http://example.com/profile,GET,id=43
+http://example.com/login,GET,user=user3&pass=123
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/search,GET,q=DROP TABLE users
+http://example.com/,GET,
+http://example.com/search,GET,q=web development
+http://example.com/profile,GET,id=81
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hello
+http://example.com/profile,GET,id=14
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Question
+http://example.com/search,GET,q=UNION SELECT * FROM users
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/login,GET,user=user1&pass=123
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Question
+http://example.com/profile,GET,id=24
+http://example.com/search,GET,q=admin' --
+http://example.com/,GET,
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hi
+http://example.com/login,GET,user=user3&pass=password
+http://example.com/,GET,
+http://example.com/search,GET,q=web development
+http://example.com/search,GET,q=java
+http://example.com/search,GET,q=java
+http://example.com/login,GET,user=SELECT * FROM information_schema.tables&pass=123
+http://example.com/login,GET,user=admin&pass=qwerty
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Contact me
+http://example.com/profile,GET,id=70
+http://example.com/profile,GET,id=68
+http://example.com/profile,GET,id=50
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hi
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hi
+http://example.com/search,GET,q=java
+http://example.com/,GET,
+http://example.com/login,GET,user=user2&pass=qwerty
+http://example.com/search,GET,q=<img src=x onerror=alert(1)>
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hi
+http://example.com/,GET,
+http://example.com/search,GET,q=machine learning
+http://example.com/search,GET,q=web development
+http://example.com/,GET,
+http://example.com/profile,GET,id=4
+http://example.com/profile,GET,id=73
+http://example.com/login,GET,user=user1&pass=letmein
+http://example.com/login,GET,user=user1&pass=letmein
+http://example.com/,GET,
+http://example.com/login,GET,user=user2&pass=qwerty
+http://example.com/,GET,
+http://example.com/login,GET,user=user1&pass=password
+http://example.com/search,GET,q=SELECT * FROM information_schema.tables
+http://example.com/login,GET,user=' OR 1=1 --&pass=123
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Question
+http://example.com/,GET,
+http://example.com/login,GET,user=user2&pass=qwerty
+http://example.com/profile,GET,id=95
+http://example.com/profile,GET,id=78
+http://example.com/search,GET,q=data science
+http://example.com/profile,GET,id=31
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Contact me
+http://example.com/login,GET,user=user2&pass=password
+http://example.com/search,GET,q=machine learning
+http://example.com/,GET,
+http://example.com/contact,GET,name=John&email=john@example.com&message=Question
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hello
+http://example.com/search,GET,q=<script>alert(1)</script>
+http://example.com/login,GET,user=user1&pass=letmein
+http://example.com/profile,GET,id=38
+http://example.com/search,GET,q=machine learning
+http://example.com/search,GET,q=web development
+http://example.com/profile,GET,id=21
+http://example.com/profile,GET,id=27
+http://example.com/profile,GET,id=44
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Contact me
+http://example.com/profile,GET,id=72
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Contact me
+http://example.com/profile,GET,id=45
+http://example.com/search,GET,q=' OR 1=1 --
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hello
+http://example.com/,GET,
+http://example.com/search,GET,q=java
+http://example.com/search,GET,q=data science
+http://example.com/login,GET,user=user3&pass=password
+http://example.com/login,GET,user=user2&pass=letmein
+http://example.com/profile,GET,id=48
+http://example.com/login,GET,user=user2&pass=letmein
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Question
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hello
+http://example.com/login,GET,user=user3&pass=password
+http://example.com/login,GET,user=user1&pass=password
+http://example.com/profile,GET,id=62
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Hi
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hi
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hello
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Hi
+http://example.com/,GET,
+http://example.com/contact,GET,name=John&email=john@example.com&message=Contact me
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Hi
+http://example.com/login,GET,user=user3&pass=123
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/profile,GET,id=72
+http://example.com/profile,GET,id=91
+http://example.com/contact,GET,name=Charlie&email=charlie@example.com&message=Contact me
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/search,GET,q=java
+http://example.com/,GET,
+http://example.com/profile,GET,id=45
+http://example.com/search,GET,q=java
+http://example.com/login,GET,user=user1&pass=123
+http://example.com/search,GET,q=data science
+http://example.com/search,GET,q=machine learning
+http://example.com/profile,GET,id=84
+http://example.com/search,GET,q=data science
+http://example.com/,GET,
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Contact me
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hello
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hi
+http://example.com/,GET,
+http://example.com/search,GET,q=java
+http://example.com/login,GET,user=user1&pass=123
+http://example.com/,GET,
+http://example.com/search,GET,q=data science
+http://example.com/login,GET,user=admin&pass=qwerty
+http://example.com/profile,GET,id=11
+http://example.com/contact,GET,name=Bob&email=bob@example.com&message=Contact me
+http://example.com/login,GET,user=user2&pass=123
+http://example.com/search,GET,q=java
+http://example.com/login,GET,user=user1&pass=letmein
+http://example.com/search,GET,q=java
+http://example.com/login,GET,user=admin' --&pass=123
+http://example.com/,GET,
+http://example.com/profile,GET,id=15
+http://example.com/,GET,
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Contact me
+http://example.com/login,GET,user=admin&pass=qwerty
+http://example.com/profile,GET,id=86
+http://example.com/,GET,
+http://example.com/profile,GET,id=87
+http://example.com/search,GET,q=machine learning
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Contact me
+http://example.com/login,GET,user=user2&pass=letmein
+http://example.com/profile,GET,id=38
+http://example.com/login,GET,user=user1&pass=123
+http://example.com/login,GET,user=sqlmap&pass=123
+http://example.com/profile,GET,id=16
+http://example.com/search,GET,q=data science
+http://example.com/login,GET,user=user3&pass=password
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/search,GET,q=data science
+http://example.com/login,GET,user=user3&pass=qwerty
+http://example.com/profile,GET,id=100
+http://example.com/login,GET,user=SELECT * FROM information_schema.tables&pass=123
+http://example.com/login,GET,user=user2&pass=123
+http://example.com/contact,GET,name=John&email=john@example.com&message=Contact me
+http://example.com/search,GET,q=java
+http://example.com/profile,GET,id=38
+http://example.com/search,GET,q=java
+http://example.com/,GET,
+http://example.com/login,GET,user=user1&pass=qwerty
+http://example.com/profile,GET,id=21
+http://example.com/profile,GET,id=65
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Contact me
+http://example.com/search,GET,q=python
+http://example.com/search,GET,q=web development
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hello
+http://example.com/contact,GET,name=John&email=john@example.com&message=Contact me
+http://example.com/profile,GET,id=100
+http://example.com/profile,GET,id=61
+http://example.com/,GET,
+http://example.com/,GET,
+http://example.com/search,GET,q=machine learning
+http://example.com/profile,GET,id=57
+http://example.com/login,GET,user=user1&pass=password
+http://example.com/contact,GET,name=John&email=john@example.com&message=Hello
+http://example.com/search,GET,q=machine learning
+http://example.com/login,GET,user=<img src=x onerror=alert(1)>&pass=123
+http://example.com/login,GET,user=admin&pass=password
+http://example.com/search,GET,q=web development
+http://example.com/login,GET,user=DROP TABLE users&pass=123
+http://example.com/contact,GET,name=Alice&email=alice@example.com&message=Contact me
+http://example.com/search,GET,q=data science
+http://example.com/,GET,
+http://example.com/profile,GET,id=57
+http://example.com/login,GET,user=SELECT * FROM information_schema.tables&pass=123
+http://example.com/login,GET,user=user2&pass=password
+http://example.com/search,GET,q=SELECT * FROM information_schema.tables
+http://example.com/search,GET,q=machine learning
+http://example.com/login,GET,user=DROP TABLE users&pass=123
+http://example.com/,GET,
