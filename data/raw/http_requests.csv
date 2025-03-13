@@ -998,4 +998,4 @@ http://example.com/login,GET,user=user2&pass=password
 http://example.com/search,GET,q=SELECT * FROM information_schema.tables
 http://example.com/search,GET,q=machine learning
 http://example.com/login,GET,user=DROP TABLE users&pass=123
-http://example.com/,GET,
+http://example.com/,GET,abc
